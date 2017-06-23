@@ -1,3 +1,5 @@
+// License GNU 3.0
+
 #include <stdio.h>
 #include <signal.h>
 #include <limits.h>
