@@ -109,7 +109,7 @@ int main( )
     FD_SET( fd, &watch_set );
 
     // add ./tmp to watch list. Normally, should check directory exists first
-    const char *root = "//home//chromotifuser//Desktop";
+    const char *root = "//home//Desktop";
     int wd = inotify_add_watch( fd, root, WATCH_FLAGS );
     
     // add wd and directory name to Watch map
